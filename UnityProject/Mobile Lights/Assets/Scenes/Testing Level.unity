@@ -183,7 +183,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 113245637}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 377817672}
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &113245637
@@ -344,6 +355,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2279f8926595f4996e2ba9e0053d28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConfirmationBox: {fileID: 1210748499751990, guid: 745f2606eafcb0a4ba191b47c988470a,
+    type: 2}
+  rlButton: {fileID: 1609442440}
+  htpButton: {fileID: 856918624}
+  lsButton: {fileID: 1178096358}
+  mmButton: {fileID: 113245636}
 --- !u!4 &377817673
 Transform:
   m_ObjectHideFlags: 0
@@ -433,7 +450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315.00006, y: -140}
+  m_AnchoredPosition: {x: -315.00006, y: -180}
   m_SizeDelta: {x: 238.1, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856918624
@@ -474,7 +491,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 856918625}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 377817672}
+        m_MethodName: HTP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &856918625
@@ -680,7 +708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315.00006, y: -180}
+  m_AnchoredPosition: {x: -315.00006, y: -140}
   m_SizeDelta: {x: 238.1, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178096358
@@ -721,7 +749,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1178096359}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 377817672}
+        m_MethodName: LevelSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1178096359
@@ -1211,7 +1250,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1609442441}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 377817672}
+        m_MethodName: ResetLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1609442441
