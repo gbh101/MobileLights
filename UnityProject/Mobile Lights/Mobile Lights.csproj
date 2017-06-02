@@ -95,6 +95,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\sMainMenuLogic.cs" />
     <Compile Include="Assets\sConfirmationBoxLogic.cs" />
+    <Compile Include="Assets\sEventManager.cs" />
+    <Compile Include="Assets\sGameplayCanvasLogic.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
