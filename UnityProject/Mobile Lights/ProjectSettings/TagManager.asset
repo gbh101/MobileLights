@@ -14,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Groups
+  - Camera
+  - Node
   - 
   - 
   - 
@@ -39,6 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Bottom (Background)
+    uniqueID: 3786224141
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Middle (Node)
+    uniqueID: 3027588645
+    locked: 0
+  - name: Top (UI)
+    uniqueID: 2841712681
     locked: 0

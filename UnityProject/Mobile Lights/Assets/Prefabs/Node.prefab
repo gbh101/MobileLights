@@ -19,7 +19,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4475014387576144}
-  - component: {fileID: 114293895188162086}
+  - component: {fileID: 212335868183528868}
+  - component: {fileID: 114704035570857278}
+  - component: {fileID: 65058566620260174}
   m_Layer: 0
   m_Name: Node
   m_TagString: Node
@@ -35,12 +37,24 @@ Transform:
   m_GameObject: {fileID: 1346229386004206}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114293895188162086
+--- !u!65 &65058566620260174
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346229386004206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.5, y: 5.5, z: 5.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114704035570857278
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -51,4 +65,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfb7eec8e81d7e44b9c0fd8ec45c0819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TileEnum: 0
+  TileEnum: 12
+  mySprite: {fileID: 0}
+  myTrigger: {fileID: 0}
+  genericSprite: {fileID: 21300000, guid: 1b7e317b3fbcfaa4ab262f52c467e59e, type: 3}
+  squareTrigger: {fileID: 0}
+  squareSprite: {fileID: 21300000, guid: 25f8e80b2463e064389b4971fc1ac4b3, type: 3}
+  plusTrigger: {fileID: 0}
+  plusSprite: {fileID: 21300000, guid: dba25028f77183c46953925fd30cc544, type: 3}
+  xTrigger: {fileID: 0}
+  xSprite: {fileID: 21300000, guid: d13282bb7a06a5845b9e8b6becb3ecc3, type: 3}
+  triangleUpTrigger: {fileID: 0}
+  triangleUpSprite: {fileID: 21300000, guid: 84a14497462c9a949b76e816a643d0b9, type: 3}
+  triangleDownTrigger: {fileID: 0}
+  triangleDownSprite: {fileID: 21300000, guid: dd8a8c5f02bf8074dbb54d17b1239afb, type: 3}
+  triangleLeftTrigger: {fileID: 0}
+  triangleLeftSprite: {fileID: 21300000, guid: f5a641615aa86244e8bb61a168df05b5, type: 3}
+  triangleRightTrigger: {fileID: 0}
+  triangleRightSprite: {fileID: 21300000, guid: 3c9e230ede2f9314395de714c3d92317,
+    type: 3}
+  verticalLineTrigger: {fileID: 0}
+  verticalLineSprite: {fileID: 21300000, guid: 1af17d0246e48354f835d656d96ed1c5, type: 3}
+  horizontalLineTrigger: {fileID: 0}
+  horizontalLineSprite: {fileID: 21300000, guid: e2a5bee507d9299489284984f6b4c6bf,
+    type: 3}
+  slashLeftTrigger: {fileID: 0}
+  slashLeftSprite: {fileID: 21300000, guid: 76db9a94a54b99b48813a9fa665428a3, type: 3}
+  slashRightTrigger: {fileID: 0}
+  slashRightSprite: {fileID: 21300000, guid: ec8604b8a17c3a7428ef225dca5f0efd, type: 3}
+--- !u!212 &212335868183528868
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346229386004206}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1267378651
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
